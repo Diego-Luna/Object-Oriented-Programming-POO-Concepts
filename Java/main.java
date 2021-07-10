@@ -5,9 +5,9 @@ class Main {
     uberX.setPassegenger(4);
     uberX.printDataCar();
 
-    // Car car2 = new Car("ABC346", new Account("Hazel Herrera", "HH123") );
-    // car2.passegenger = 2;
-    // car2.printDataCar();
+    UberVan uberVan = new UberVan("ABC346", new Account("Hazel Herrera", "HH123") );
+    uberVan.setPassegenger(6);
+    uberVan.printDataCar();
 
   }
 }
